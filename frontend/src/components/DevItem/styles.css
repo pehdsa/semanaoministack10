@@ -1,0 +1,53 @@
+.dev-item {
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.1);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.dev-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.dev-item header img { 
+    display: block;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%; 
+}
+
+.dev-item .user-info {
+    margin-left: 10px;
+}
+.dev-item .user-info strong, span {
+    display: block;
+}
+.dev-item .user-info strong {
+    font-size: 16px;
+    color: #333;
+}
+.dev-item .user-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+.dev-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+
+}
+
+.dev-item a {
+    color: #8e4dff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.dev-item a:hover {
+    text-decoration: underline;
+}
